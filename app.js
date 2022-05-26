@@ -1,10 +1,10 @@
 window.onload = () => {
-    fetch('https://goquotes-api.herokuapp.com/api/v1/random?count=1')
+    fetch('https://api.quotable.io/random')
     .then(response => response.json())
     .then(data => {
 
-       let a = data.quotes[0].text;
-       let b = data.quotes[0].author;
+       let a = data.content;
+       let b = data.author;
 
         document.getElementById('quote').innerText =a;
         document.getElementById('auth').innerText = b;
