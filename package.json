@@ -1,0 +1,10 @@
+{
+  "name": "random-quote",
+  "version": "1.0.0",
+  "description": "Displays a random quote, with a /health endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC"
+}
